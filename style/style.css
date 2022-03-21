@@ -1,0 +1,127 @@
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "sidebar sidebar sidebar body body body body"
+    "sidebar sidebar sidebar body body body body"
+    "sidebar sidebar sidebar body body body body"
+    "sidebar sidebar sidebar body body body body"
+    "sidebar sidebar sidebar body body body body"
+    "sidebar sidebar sidebar body body body body"
+    "footer footer footer footer footer footer footer"; 
+}
+.sidebar { 
+	grid-area: sidebar; 
+	margin-right: 2em;
+	padding: 2em;
+	background-color: #013A59;
+	color: #fff;
+	border-radius: 2em;
+	text-shadow: #000 2px 2px 3px; 
+	}
+
+.body { grid-area: body;
+		width: 100%; }
+
+.footer { 
+	grid-area: footer; 
+	position: relative;
+	text-align: center;
+	padding-top: 4em;
+	height: 20em;
+	width: 100%;
+	margin-top: 2em;
+	background-color: #222222;
+	color: #fff;
+}
+
+.footer-text {
+	padding-top: 4em;
+}
+
+
+body {
+	padding-top: 70px;
+	background-color: rgb(255, 255, 255);
+}
+
+nav {position: fixed;}
+
+.jumbotron {
+	color: #2c3e50;
+	background-color: #ecf0f1; 
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.logo {
+  width: 2em;
+  height: 2em;
+  margin-top: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.blue_opacy {
+  background-size: cover;
+  width: 100%;
+  height: 30em;
+  margin-top: -3em;
+}
+
+h1, h2, h3, h4, h5{font-family: 'Bluu Next';}
+
+.textimg {
+	margin-top: -25em;
+	width: 50%;
+	padding: 5%;
+	color: #fff;
+	text-shadow: #000 2px 2px 3px;
+}
+
+.space {
+	margin-top: 6%;
+	padding-top: 2em;
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+p {font-size: 1.5em;}
+a {color: #fff;}
+
+.banner {width: 100%; height: 45em;}
+
+.logo-azul {
+	float: left;
+	width: 20em;
+	height: 15em;
+	padding-left: 4em;
+}
+
+.myphoto-cv {
+	width: 20em;
+	height: 20em;
+	margin-top: 2em;
+}
+
+.icono {width: 1em;	height: 1em;}
+
+.barra {
+	width: 10em;
+	height: 1em;
+	padding-left: 1em;
+}
+
+.indicador {
+	width: 2em;
+	height: 1em;
+	margin-left: 1em;
+}
+
+.img-blog {
+	margin-top:20em;
+}
